@@ -19,12 +19,21 @@
   <hr />
 
   <!-- Formating Tags -->
+  <!-- Bold text -->
   <b>Bold Text</b>
+  <!-- Underline Txt -->
   <u>Underline </u>
+  <!-- Italic Text -->
+  <i>Italic Text</i>
+
   <del> Deleted </del>
+
   <strong>Strong</strong>
+  <!-- Code tag -->
   <code>Code tag</code>
+  <!-- small Letter -->
   <small>small</small>
+
   <sup> and <sub>:
       <!-- <sup>: Creates superscript (e.g., 
 ) for exponents or footnotes.
@@ -39,6 +48,9 @@
       <!-- start="5" type="A"  value="10" -->
       <h1>Lists in HTML</h1>
       <br />
+
+      <!-- ordere list: A list where the items are numbered or lettered in a specific order. It is created using the <ol> tag in HTML. The type attribute can be used to specify the numbering style (e.g., "1" for numbers, "A" for uppercase letters, "a" for lowercase letters, "I" for uppercase Roman numerals, and "i" for lowercase Roman numerals). The start attribute can be used to specify the starting number or letter for the list, and the value attribute can be used to specify the value of a specific list item. -->
+
       <h2><u>Ordered List</u></h2>
 
       <ol type="1">
@@ -77,7 +89,7 @@
         exercitationem illum. Explicabo ab eveniet ad fuga.</p>
       <br>
       <!-- Day 2 -->
-      <!-- Meedia element  -->\
+      <!-- Media element  -->\
 
       <!-- img tag -->
 
@@ -110,6 +122,7 @@
       <h2>Student Information Table</h2>
 
       <table border="1px">
+        <!-- heading tag -->
         <thead>
           <tr>
             <th>Name</th>
@@ -135,8 +148,20 @@
             <td>Islamabad</td>
           </tr>
         </tbody>
+        <!-- footer tags -->
+        <tfoot>
+          <tr>
+            <td colspan="3">This is the footer of the table</td>
+          </tr>
       </table>
       <!-- FORM -->
+
+      <!-- Form types in Html:
+                        form input types name is text, email, password, number, date, time, color, url, checkbox, tel, datetime-local, file, week, range
+
+       Attribute:
+        attribute of form input types are pattern, minlength, maxlength, required, readonly, disabled, placeholder, value, name, id, class -->
+
       <hr>
       <hr>
       <form action="" style="background-color: rgb(34, 177, 34); padding: 20px; margin: 20px;">
@@ -170,7 +195,7 @@
         <label for="">Select Color</label>
         <input type="color" name="" id="">
         <br> <br>
-        
+
 
         <br> <br>
         <!-- url -->
@@ -198,11 +223,15 @@
         <label for="">Upload your file</label>
         <input type="file" name="" id="">
         <br> <br>
+        <!-- multiple file uploding -->
+        <label for="">Upload your files</label>
+        <input type="file" name="" id="" multiple>
+        <br> <br>
         <!-- week -->
         <label for="">Week</label>
         <input type="week" name="" id="">
         <br> <br>
-          <!-- text area -->
+        <!-- text area -->
         <!-- <label for="">Enter your details</label> -->
         <textarea name="" id="" cols="30" rows="5" placeholder="Enter your details" rows="2" cols="50"></textarea>
         <br> <br>
@@ -217,21 +246,73 @@
       <!-- Day 4 -->
 
       <!-- hyperlink -->
-       <!-- hyperlink is used to link one page to another page or to a specific section within the same page. It is created using the <a> tag in HTML. The <a> tag stands for "anchor" and is used to define a hyperlink. The href attribute of the <a> tag specifies the URL of the page or section that the link points to. -->
 
-       <!-- EXternally linking to another website: -->
-        <!-- we use target attribute to open the link in a new tab or window. The value of the target attribute can be "_blank" to open the link in a new tab, "_self" to open the link in the same tab, "_parent" to open the link in the parent frame, or "_top" to open the link in the full body of the window.  -->
+      <!-- hyperlink is used to link one page to another page or to a specific section within the same page. It is created using the <a> tag in HTML. The <a> tag stands for "anchor" and is used to define a hyperlink. The href attribute of the <a> tag specifies the URL of the page or section that the link points to. -->
+
+      <!-- EXternally linking to another website: -->
+
+      <!-- we use target attribute to open the link in a new tab or window. The value of the target attribute can be "_blank" to open the link in a new tab, "_self" to open the link in the same tab, "_parent" to open the link in the parent frame, or "_top" to open the link in the full body of the window.  -->
+
       <a href="https://www.daraz.pk">Click here to visit Daraz</a>
-<br>
+      <br>
       <!-- interanl linking to another page within the same website: -->
+
       <a href="form.html" target="_blank">Click here to go to the form page</a>
-      
+
       <!-- iframe  -->
-        <!-- iframe is used for to add link's to display specific web page in their own site -->
-       <iframe src="https://www.w3schools.com/html/html_iframe.asp" frameborder="0"></iframe>
+
+      <!-- iframe is used for to add link's to display specific web page in their own site -->
+      <iframe src="https://www.w3schools.com/html/html_iframe.asp" frameborder="0"></iframe>
+
+      <!-- Day 5 -->
+
+      <!-- Div: 
+          the div tag is a container element that is used to group together other HTML elements and apply styles or scripts to them as a single unit. It does not have any semantic meaning on its own, but it is commonly used for layout and styling purposes in web development. The div tag can be used to create sections of a webpage, such as headers, footers, sidebars, and content areas, and it can be styled using CSS to control the appearance of these sections. -->
+
+      <div style="background-color: rgb(34, 177, 34);" width="300px" height="200px">
+        <h1>Muhammad Ahmad</h1>
+        <h2>Web development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt nulla pariatur, qui placeat totam
+          laborum voluptatibus voluptatem neque vitae!</p>
+      </div>
+
+      <!-- Span tag: 
+        The span tag is an inline container element that is used to group together other HTML elements and apply styles or scripts to them as a single unit. It does not have any semantic meaning on its own, but it is commonly used for styling specific parts of text or other inline elements within a larger block of content. The span tag can be used to apply CSS styles, such as color, font size, or background color, to specific words or phrases within a paragraph or heading, without affecting the entire block of text.  -->
+
+      <div style="background-color: rgb(148, 177, 34);" width="300px" height="200px">
+        <h1>Muhammad Ahmad</h1>
+        <h2>Web development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt nulla pariatur, <span
+            style="background-color: blue;">qui placeat totam</span> laborum voluptatibus voluptatem neque vitae!</p>
+      </div>
+
+      <!-- Semantic tags: 
+           Semantic tags are HTML elements that provide meaning and structure to the content they enclose. These tags help search engines and assistive technologies understand the purpose and context of the content, improving accessibility and SEO. Examples of semantic tags include <header>, <nav>, <main>, <article>, <section>, <aside>, and <footer>. Using semantic tags enhances the readability and maintainability of web pages by clearly defining the different sections and their roles within the overall structure of the document.
+
+            Non-Sematic tags:
+            Non-semantic tags are HTML elements that do not provide any specific meaning or structure to the content they enclose. These tags are primarily used for styling and layout purposes, rather than conveying the purpose or context of the content. Examples of non-semantic tags include <div> and <span>. While these tags can be useful for grouping and styling elements, they do not contribute to the accessibility or SEO of a web page, as they do not provide any information about the content they contain. It is generally recommended to use semantic tags whenever possible to improve the overall structure and meaning of a web page. -->
+
+              <footer>
+                <ul>
+                  <h2>Company</h2>
+                  <li>about us </li>
+                  <li>contact us</li>
+                  <li>privacy policy
+                    
+                  </li>
+                </ul>
+              </footer>
+
+
+
+
+
 </body>
 
 </html>
-
-
-<!-- pattern, minlength, maxlength, required, readonly, disabled, placeholder, value, name, id, class, inputtype file, text, email, password, number, date, time, color, url, checkbox, tel, datetime-local, file, week, range -->
+<!-- html globbal attributes:
+    - class
+    - id
+    - style
+    - title
+    - data-* -->
