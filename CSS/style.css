@@ -1,0 +1,23 @@
+/* CSS selector:
+        */
+/* universal selector */
+*{
+    background-color: rgb(255, 255, 6);
+}
+/* id selector  */
+#title{
+    /* Property value */
+  background-color: red;
+}
+
+/* class selector */
+.para{
+    color: blue;
+}
+
+/* element selector */
+h2{
+    color: rgb(208, 14, 14);
+}
+
+/* Box model */

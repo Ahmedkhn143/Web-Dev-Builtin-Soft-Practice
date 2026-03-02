@@ -5,14 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-</head>
+  <style>
+    #h2{
+      color: blue;
+    }
+  </style>
 
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+</head>
+<p style="color: aqua;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores hic consequatur omnis molestias quod illo quaerat explicabo modi ipsam minus. Tenetur ipsa molestias et fuga, modi quos praesentium sint sapiente.</p>
 <body>
   <!-- Heading Tags  -->
-  <h1>Heading 1</h1>
+  <h1 style="color: rgb(3, 45, 3);">Heading 1</h1>
   <br />
-  <h2>heading 2</h2>
-  <h3>Heading 3</h3>
+  <h2 id="h2">heading 2</h2>
+  <h3 >Heading 3</h3>
   <h4>Heading 4</h4>
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
@@ -62,7 +70,7 @@
       </ol>
       <!-- unordered list -->
       <h2><u>Unordered List</u></h2>
-      <ul type="square">
+      <ul type="square" class="para">
         <li>Ahmad</li>
         <li>Ali</li>
         <li>Abdullah</li>
@@ -164,6 +172,7 @@
 
       <hr>
       <hr>
+
       <form action="" style="background-color: rgb(34, 177, 34); padding: 20px; margin: 20px;">
         <h2>Studnet Information Form</h2>
         <!-- name -->
@@ -176,7 +185,7 @@
         <br> <br>
         <!-- password -->
         <label for="">Enter your Password</label>
-        <input type="password" name="" id="" value="" placeholder="Enter your password">
+        <input type="password" value="" placeholder="Enter your password">
         <br> <br>
         <!-- age -->
         <label for="">Enter your age</label>
@@ -220,7 +229,7 @@
         <input type="datetime-local" name="" id="">
         <br> <br>
         <!-- file uploding -->
-        <label for="">Upload your file</label>
+        <label for="">Upload your img</label>
         <input type="file" name="" id="">
         <br> <br>
         <!-- multiple file uploding -->
@@ -232,8 +241,11 @@
         <input type="week" name="" id="">
         <br> <br>
         <!-- text area -->
-        <!-- <label for="">Enter your details</label> -->
-        <textarea name="" id="" cols="30" rows="5" placeholder="Enter your details" rows="2" cols="50"></textarea>
+        <label for="">Enter your details</label>
+        <input type="text" name="" id="" placeholder="Enter your details">
+        <br> <br>
+        <!-- textarea -->
+        <textarea name="details" id="" cols="30" rows="5" placeholder="Enter your details" rows="2" cols="50"></textarea>
         <br> <br>
 
         <!-- range -->
@@ -253,7 +265,7 @@
 
       <!-- we use target attribute to open the link in a new tab or window. The value of the target attribute can be "_blank" to open the link in a new tab, "_self" to open the link in the same tab, "_parent" to open the link in the parent frame, or "_top" to open the link in the full body of the window.  -->
 
-      <a href="https://www.daraz.pk">Click here to visit Daraz</a>
+      <a href="https://www.daraz.pk" target="_blank">Click here to visit Daraz</a>
       <br>
       <!-- interanl linking to another page within the same website: -->
 
@@ -303,6 +315,17 @@
                 </ul>
               </footer>
 
+              <!-- HTML global Attribute
+
+              title attribute 
+              dir attribute 
+              hidden attribute
+              tabindex attribute
+              contemteditable attribute
+              lang attribute
+               -->
+
+
 
 
 
@@ -315,4 +338,4 @@
     - id
     - style
     - title
-    - data-* -->
+    - data-* --> 
