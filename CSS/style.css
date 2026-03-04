@@ -2,16 +2,19 @@
         */
 /* universal selector */
 *{
-    background-color: rgb(255, 255, 6);
+    background-color: rgba(160, 185, 177, 0.295);
 }
 /* id selector  */
-#title{
+#heading{
     /* Property value */
-  background-color: red;
+  color: blueviolet;
 }
 
 /* class selector */
 .para{
+    color: blue;
+}
+.txtbld{
     color: blue;
 }
 
