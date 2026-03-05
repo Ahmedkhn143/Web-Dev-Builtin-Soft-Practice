@@ -1,0 +1,17 @@
+.typography{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    /* text */
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    /* Use for spacing between characters */
+    letter-spacing: 10px;
+    
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(94, 27, 15);
+
+
+}
