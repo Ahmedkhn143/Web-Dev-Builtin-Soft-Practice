@@ -1,4 +1,7 @@
-/* CSS selector:
+type of css used 
+inline , internal 
+/* CSS selector types:
+
         */
 /* universal selector */
 *{
@@ -22,5 +25,25 @@
 h2{
     color: rgb(208, 14, 14);
 }
+/* box model
+1.contant
+2.padding
+3.box 
+4.margin  */
 
-/* Box model */
+
+/* colors */
+
+/* color:red;
+background-color: rgb(255, 0, 0); */
+
+/* Fonts in CSS: */
+/* font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: bold;
+font-style: italic; */
+
+
+
+/* flex box */
+

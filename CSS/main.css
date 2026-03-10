@@ -3,15 +3,27 @@
     font-size: 20px;
     color: #ff0000;
     font-weight: bold;
-    /* text */
+    /* Text-Transform */
     text-transform: uppercase;
+    /* use for text decoration underline  */
     text-decoration: underline;
+    /* use for text alignment  */
     text-align: center;
     /* Use for spacing between characters */
     letter-spacing: 10px;
-    
+     /* use for white space between words  */
     white-space: nowrap;
+    /* for text shadow text shadow cycle through the colors of the rainbow */
     text-shadow: 2px 2px 4px rgb(94, 27, 15);
+    /* line-height */
+    line-height: 10px;
 
+    /* margin:top:Right:Bottom:Left */
+
+    /* padding:top:Right:Bottom:Left */
+   
+    /* border:width:style:color */
+     
+    
 
 }
