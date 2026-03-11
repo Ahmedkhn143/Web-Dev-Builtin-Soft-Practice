@@ -46,9 +46,11 @@
 }
 .child-1, .child-2, .child-3{
 
+
 }
 
 .bg-section{
+
     background-color: aqua;
     align-items: center;
     margin-top: 20px;
@@ -56,13 +58,45 @@
     background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGF0dGVybmVkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
     background-size: contain;
     background-repeat: no-repeat;
+    /* gradient color */
     background-position: center;
     background-image: linear-gradient(to right, red,green,blue,pink);
     
 }
-/* gradient color */
+      
+/* Position in CSS */
+ 
+/*
+Relative Position:
+        relative position is use to move the element from its original position without affecting the layout of other elements. It allows you to adjust the position of an element using the top, right, bottom, and left properties. The element will still take up space in the document flow, but it will be visually shifted from its original position. */
 
+.box-p{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0000;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    bottom: 30px;
+}
+/* Absolute Position */
+ /* is use to position an element relative to its nearest positioned ancestor. An element with absolute positioning is removed from the normal document flow and can be precisely placed using the top, right, bottom, and left properties. The element will not affect the layout of other elements and can overlap with them.  */
+.abs-box{
 
+    
+}
+/* Fixed Position: */
+        /* fixed position is use to position an element relative to the viewport, which means it will stay in the same position even when the page is scrolled. An element with fixed positioning is removed from the normal document flow and can be precisely placed using the top, right, bottom, and left properties. The element will not affect the layout of other elements and can overlap with them. */
+.p-fix{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0000;
+    position: fixed;
+    top: 30px;
+}
+
+/* learn position sticky
+z-index in css */
 
 /*
  learn flex in css properties

@@ -1,0 +1,12 @@
+learn Position in CSS
+
+Notes:
+- position: static | relative | absolute | fixed | sticky
+- Use `position` to control element placement and stacking.
+
+Example:
+.position-demo {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
