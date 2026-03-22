@@ -29,3 +29,47 @@ let someNumber  = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+
+// ******************operations******************
+
+let value = 3
+// convert positive value to negative value
+let negValue = -value
+console.log(negValue);
+
+// console.log(2+2); // addition
+// console.log(2-2); // subtraction
+// console.log(2*2); // multiplication
+// console.log(2/2); // division
+// console.log(2%2); // modulus operator gives remainder
+// console.log(2**3); // exponentiation operator gives power
+
+let str1 = "Hello"
+let str2 = "Ahmad"
+
+let str3 = str1 + str2
+console.log(str3); // concatenation 
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2     ); // 122
+console.log(1 + 2 + "2");
+
+console.log(+true);
+// give output 1
+console.log(+"");
+// give output 0
+console.log(+"ahmad");
+// give output NaN
+
+// this is not best practice to use + for type conversion because it can create confusion and also it can give unexpected results in some cases. it is better to use Number() or String() or Boolean() for type conversion.
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter); // 101
