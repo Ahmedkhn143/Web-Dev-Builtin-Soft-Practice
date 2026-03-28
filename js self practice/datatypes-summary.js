@@ -39,3 +39,28 @@
 // const myFunction =function(){
 // console.log("Hello World");
 // }
+
+
+// memory types
+// stack (primitive data types) give direct access to the data and are stored in a last-in-first-out (LIFO) manner, while
+// heap (non-primitive data types) give reference to the location of the data in memory
+
+let myYoutubeChannel = "Code with Ahmad";
+
+let anotherChannel = myYoutubeChannel;
+
+anotherChannel = "Code with ahmi";
+
+console.log(anotherChannel); // Output: "Code with ahmi"
+console.log(myYoutubeChannel); // Output: "Code with Ahmad" 
+
+
+let userOne ={
+    name: "Ahmad",
+    age: 25
+
+}
+let userTwo = userOne;
+userTwo.name = "Ali";
+console.log(userOne.name); // Output: "Ali"
+console.log(userTwo.name); // Output: "Ali"
