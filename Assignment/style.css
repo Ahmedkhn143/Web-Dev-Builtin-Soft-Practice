@@ -1,3 +1,4 @@
+/* Theme variables: change these first to re-skin the full page quickly. */
 :root {
 	--bg: #fff8ef;
 	--surface: #ffffff;
@@ -11,6 +12,7 @@
 	--shadow-strong: 0 16px 34px rgba(17, 24, 39, 0.15);
 }
 
+/* Global reset */
 * {
 	margin: 0;
 	padding: 0;
@@ -33,6 +35,7 @@ img {
 	display: block;
 }
 
+/* Shared layout helpers */
 .container {
 	width: min(1120px, 92%);
 	margin: 0 auto;
@@ -43,6 +46,7 @@ img {
 	animation: fadeInUp 0.55s ease both;
 }
 
+/* Header and navigation */
 .site-header {
 	position: sticky;
 	top: 0;
@@ -140,6 +144,7 @@ img {
 	background-color: transparent;
 }
 
+/* Hero section */
 .hero {
 	padding-top: 4.6rem;
 }
@@ -204,6 +209,7 @@ img {
 	object-fit: cover;
 }
 
+/* Section title row */
 .section-title-row {
 	display: flex;
 	justify-content: space-between;
@@ -222,6 +228,7 @@ img {
 	max-width: 65ch;
 }
 
+/* Featured restaurants cards grid */
 .restaurant-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -265,6 +272,7 @@ img {
 	font-size: 0.93rem;
 }
 
+/* Offers section cards */
 .offers {
 	padding-top: 2.2rem;
 }
@@ -290,6 +298,7 @@ img {
 	color: var(--muted);
 }
 
+/* Contact info + form */
 .contact-grid {
 	display: grid;
 	grid-template-columns: 1fr 1.1fr;
@@ -336,6 +345,7 @@ img {
 	box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.2);
 }
 
+/* Footer */
 .site-footer {
 	border-top: 1px solid var(--border);
 	background-color: #fff0de;
@@ -363,6 +373,7 @@ img {
 	}
 }
 
+/* Responsive breakpoints: tablet and mobile layout adjustments */
 @media (max-width: 980px) {
 	.hero-grid {
 		grid-template-columns: 1fr;
