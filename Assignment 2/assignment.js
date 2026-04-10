@@ -63,3 +63,4 @@ else if (second > first)
  else {
   // console.log("Both are equal");
 }
+

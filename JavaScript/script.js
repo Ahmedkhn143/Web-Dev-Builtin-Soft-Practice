@@ -6,41 +6,41 @@
 // }
 let a = 1
 for (let i = 0; i < 100; i++) {
-    console.log(a + i);   
+    console.log(a + i);
 }
- 
+
 // for in loop 
 
 let obj = {
     name: "Ahmad",
-    age:20,
+    age: 20,
     role: "Developer"
 }
 // for in loop
 for (const key in obj) {
-    
+
     const element = obj[key];
     console.log(key, element);
-       
+
 }
 // for of loop
- 
+
 for (const he of "Ahmad") {
     console.log(he);
 }
 
 // while loop
-let i =8;
-while (i>4){
+let i = 8;
+while (i > 4) {
     console.log(i);
     i--;
-    
+
 }
 
 // do while loop
 
 let j = 9;
-do{
+do {
     console.log(j);
     j++;
 } while (j <= 15);
@@ -48,9 +48,16 @@ do{
 
 // function in js 
 function fun(Ahmad) {
-  return "Hello " + Ahamd;
+    return "Hello " + Ahmad;
 }
-console.log(fun)
+// console.log(fun("Ahmad"));
 
 // DOM
 // differece between id and class 
+
+const nameOfTeacher = document.getElementById('name')
+
+nameOfTeacher.style.color = 'red'
+nameOfTeacher.style.fontSize = '44px'
+nameOfTeacher.textContent = "Arslan"
+nameOfTeacher.style.padding = '20px'
