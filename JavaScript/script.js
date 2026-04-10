@@ -1,65 +1,56 @@
-// // Switch in js
-// // let day = "Monday"
-// // day === "Monday"
+// Loops in js 
+// for loop, while loop, do while loop, for in loop, for of loop
 
-// // switch (day) {
-// //     case "Monday":
-// //         console.log("First day of the week")
-// //         break;
-// //     case "Friday":
-// //         console.log("First day of the week")
-// //         break;
-// //     default:
-// //         console.log("Not a valid day")
-// // }
-
-// // deep copy and shallow copy in js
-
-// // for(let xyz in person){
-// // console.log('Key is: ', xyz, 'Value is: ', person[xyz])
-// // }
-
-// // Function in js
-
-// // function xyx("parameter"){
-// // return
-// // }
-
-// // function pintName(){
-// //     console.log("My name is ahmad")
-
-// // }
-// // pintName()
-
-// function pintName(name){
-//     console.log('My name is ' + name)
+// for (*initialization*;*Condition*;*increment/decrement*) {
+//     // code to be executed
 // }
-// pintName("Ahmad")
-// printName("Ali")
-// printName("Hassan")
+let a = 1
+for (let i = 0; i < 100; i++) {
+    console.log(a + i);   
+}
+ 
+// for in loop 
+
+let obj = {
+    name: "Ahmad",
+    age:20,
+    role: "Developer"
+}
+// for in loop
+for (const key in obj) {
+    
+    const element = obj[key];
+    console.log(key, element);
+       
+}
+// for of loop
+ 
+for (const he of "Ahmad") {
+    console.log(he);
+}
+
+// while loop
+let i =8;
+while (i>4){
+    console.log(i);
+    i--;
+    
+}
+
+// do while loop
+
+let j = 9;
+do{
+    console.log(j);
+    j++;
+} while (j <= 15);
 
 
-// function printName(dob){
-//     let date = new Date()
-//     let age = date.getFullYear() - dob
-//     console.log('Your age is ' + age)
-// }
-// printName(2000)
-// function printName(name='Ameer'){
-//     // let date = new Date()
-//     // let age = date.getFullYear() -dob
-//     console.log(`Hello my name is ${name}`)
-// }
+// function in js 
+function fun(Ahmad) {
+  return "Hello " + Ahamd;
+}
+console.log(fun)
 
-
-
-
-// // printName(2000)
-// printName()
-// printName('Anum')
-// printName('Arslan')
-
-let num1 = prompt("Enter first number:");
-let num2 = prompt("Enter second number ");
-let num3 = num1 + num2 ;
-console.log(num3)
+// DOM
+// differece between id and class 
