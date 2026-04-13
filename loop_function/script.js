@@ -10,7 +10,7 @@ while(i<16 ){
     // console.log(i);
 i++;
 }
-
+ 
 // Question 3:
 let j =1;
 do{

@@ -61,3 +61,11 @@ nameOfTeacher.style.color = 'red'
 nameOfTeacher.style.fontSize = '44px'
 nameOfTeacher.textContent = "Arslan"
 nameOfTeacher.style.padding = '20px'
+
+
+nameOfTeacher.addEventListener('dblclick', function () {
+    nameOfTeacher.style.color = 'orange'
+})
+nameOfTeacher.addEventListener(MouseEvent, function () {
+    nameOfTeacher.style.color = 'orange'
+})
