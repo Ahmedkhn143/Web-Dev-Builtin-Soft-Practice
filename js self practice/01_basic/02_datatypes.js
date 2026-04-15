@@ -1,8 +1,4 @@
 
-
-
-
-
 console.log("Ahmad");
 // string data type
 let name = "ahmad "
@@ -16,7 +12,7 @@ let isloggedIn = false
 // boolean => true/false
 // null => standalone value (value assigned this is null empty) null is also a object 
 // undefined => vlause is not assigned
-// symbol => is used to define uniqe its type is undefined
+// symbol => is used to define unique its type is undefined
 
 
 // Object
