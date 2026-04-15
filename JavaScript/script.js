@@ -69,3 +69,18 @@ nameOfTeacher.addEventListener('dblclick', function () {
 nameOfTeacher.addEventListener(MouseEvent, function () {
     nameOfTeacher.style.color = 'orange'
 })
+
+// call back function
+
+function first(xyz){
+    xyz()
+    console.log('First Called')
+}
+
+function second()
+
+// Promise
+const myPromise = new Promise((resolve, reject) => {
+
+})
+// java script visualizer 
