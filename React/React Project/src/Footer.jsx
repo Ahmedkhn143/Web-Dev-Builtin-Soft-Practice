@@ -1,0 +1,15 @@
+import React from 'react'
+import './Footer.css'
+export default function Footer() {
+  return (
+
+    <div className="footer">
+        
+
+      <p>&copy; 2023 My App. All rights reserved.</p>
+    </div>
+    
+  )
+}
+export default Footer
+
